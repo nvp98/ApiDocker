@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>server_elearning</name>
+    </assembly>
+    <members>
+        <member name="M:server_elearning.Controllers.UserController.Authenticate(server_elearning.Models.Users)">
+             <summary>
+             Creates a TodoItem.
+             </summary>
+             <param name="usersdata"></param>
+             <returns>A newly created TodoItem</returns>
+             <remarks>
+             Sample request:
+            
+                 POST /Todo
+                 {
+                    "MaNV": "HPDQ18461",
+                    "password": "1"
+                 }
+            
+             </remarks>
+        </member>
+    </members>
+</doc>

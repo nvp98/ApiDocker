@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  server_elearning:
+    image: ${DOCKER_REGISTRY-}serverelearning
+    build:
+      context: .
+      dockerfile: server_elearning\Dockerfile
